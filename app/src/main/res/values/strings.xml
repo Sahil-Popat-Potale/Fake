@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fake</string>
+    <string name="Login_Button">Login</string>
+    <string name="URN">URN No.:-  </string>
+    <string name="urn">Enter URN No.</string>
+    <string name="Pass">Password:-</string>
+    <string name="Issue">Select Issues</string>
+    <string name="Subject">Subject Related</string>
+    <string name="Report">Report Faculty</string>
+    <string name="Student">Students Related</string>
+    <string name="ERP">ERP Related</string>
+    <string name="back">Back</string>
+    <string name="Submit">Submit</string>
+    <string name="Forget">Forget Your Password ?</string>
+</resources>
