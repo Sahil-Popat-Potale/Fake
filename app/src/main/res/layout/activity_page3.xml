@@ -29,8 +29,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="30dp"
-                    android:background="#70FFFFFF"
-                    android:hint="State your Issue"
+                    android:background="#66FFFFFF"
+                    android:hint="@string/IssuePage"
                     android:maxHeight="350dp"
                     android:minHeight="250dp" />
 

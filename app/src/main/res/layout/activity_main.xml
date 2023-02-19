@@ -120,9 +120,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|end"
                     android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
                     android:onClick="forget_page"
                     android:text="@string/Forget"
-                    android:textColor="#EF4712"
+                    android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />

@@ -5,6 +5,7 @@
     <string name="urn">Enter URN No.</string>
     <string name="Pass">Password:-</string>
     <string name="Issue">Select Issues</string>
+    <string name="IssuePage">State Your Issues</string>
     <string name="Subject">Subject Related</string>
     <string name="Report">Report Faculty</string>
     <string name="Student">Students Related</string>
