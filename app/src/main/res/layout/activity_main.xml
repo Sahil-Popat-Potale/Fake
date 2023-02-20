@@ -27,11 +27,12 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#00FFFFFF"
-                android:backgroundTint="#00FFFFFF"
+                android:background="#FFFFFF"
+                android:backgroundTint="#80FFFFFF"
+                android:contentDescription="@string/image"
                 android:onClick="ajeenkya"
-                android:paddingLeft="10dp"
-                android:paddingRight="50dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="45dp"
                 app:srcCompat="@drawable/logo"
                 tools:ignore="SpeakableTextPresentCheck"
                 tools:visibility="visible" />
@@ -63,7 +64,8 @@
                     android:ems="10"
                     android:hint="@string/urn"
                     android:inputType="textPersonName"
-                    android:textColorHint="#0C20A6" />
+                    android:textColorHint="#0C20A6"
+                    android:autofillHints="" />
             </LinearLayout>
 
             <LinearLayout
@@ -96,7 +98,8 @@
                     android:hint="@string/pass"
                     android:inputType="textPassword"
                     android:textColorHint="#0C20A6"
-                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                    android:autofillHints="" />
 
             </LinearLayout>
 
@@ -116,15 +119,15 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="172dp"
-                    android:layout_height="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="bottom|end"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="10dp"
                     android:onClick="forget_page"
                     android:text="@string/Forget"
                     android:textColor="@color/black"
-                    android:textSize="15sp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
