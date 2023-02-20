@@ -2,8 +2,9 @@
     <string name="app_name">Fake</string>
     <string name="Login_Button">Login</string>
     <string name="URN">URN No.:-  </string>
+    <string name="PASS">Password:-</string>
     <string name="urn">Enter URN No.</string>
-    <string name="Pass">Password:-</string>
+    <string name="pass">Enter Password</string>
     <string name="Issue">Select Issues</string>
     <string name="IssuePage">State Your Issues</string>
     <string name="Subject">Subject Related</string>

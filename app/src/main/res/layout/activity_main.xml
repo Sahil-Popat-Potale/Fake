@@ -52,7 +52,7 @@
                     android:layout_marginEnd="10dp"
                     android:fontFamily="sans-serif-black"
                     android:text="@string/URN"
-                    android:textColor="#FF6331"
+                    android:textColor="#EF5C2D"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -63,7 +63,7 @@
                     android:ems="10"
                     android:hint="@string/urn"
                     android:inputType="textPersonName"
-                    android:textColorHint="#01988A" />
+                    android:textColorHint="#0C20A6" />
             </LinearLayout>
 
             <LinearLayout
@@ -82,7 +82,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="10dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="@string/Pass"
+                    android:text="@string/PASS"
                     android:textColor="#FF6331"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -93,9 +93,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="Enter Password"
+                    android:hint="@string/pass"
                     android:inputType="textPassword"
-                    android:textColorHint="#01988A"
+                    android:textColorHint="#0C20A6"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
             </LinearLayout>
@@ -116,8 +116,8 @@
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="172dp"
+                    android:layout_height="35dp"
                     android:layout_gravity="bottom|end"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="10dp"
